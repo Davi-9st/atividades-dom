@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Atividades DOM</title>
+</head>
+<body>
+    <p>Exercício 1</p>
+    <div id="quadrado">
+    </div>
+
+    <br>
+
+    <p>Exercício 2</p>
+    <div id="retangulo">
+    </div>
+
+    <br>
+
+    <p>Exercício 3</p>
+    <div id="circulo">
+    </div>
+
+    <br>
+
+    <p>Exercício 4</p>
+    <div id="tres-quadrados">
+        <div class="quadrados"></div>
+        <div class="quadrados"></div>
+        <div class="quadrados"></div>
+    </div>
+
+    <br>
+
+    <p>Exercício 5</p>
+    <p id="paragrafo"> Texto Aleatório </p>
+
+    <br>
+
+    <p>Exercício 6</p>
+    <div id="banner"></div>
+
+    <br>
+
+    <p>Exercício 7</p>
+    <div id="triangulo"></div>
+
+    <br>
+
+    <p>Exercício 8</p>
+    <div id="formas">
+        <div id="quadradao"></div>
+        <div id="circular"></div>
+    </div>
+
+</body>
+
+<script>
+    //Exercício 1
+    let quadrado = document.getElementById("quadrado");
+    quadrado.style.backgroundColor = "green";
+
+    //Exercício 2
+    let retangulo = document.getElementById("retangulo");
+    retangulo.style.backgroundColor = "red";
+
+    //Exercício 3
+    let circulo = document.getElementById("circulo");
+    circulo.style.backgroundColor = "purple";
+
+    //Exercício 4
+    const quadrados = document.querySelectorAll(".quadrados")
+    const cores = ["blue", "orange", "pink"];
+    for (let i = 0; i < quadrados.length; i++) {
+        quadrados[i].style.backgroundColor = cores[i];
+    }
+
+    //Exercício 5
+    let texto = document.getElementById("paragrafo");
+    texto.style.backgroundColor = "black";
+    texto.style.color = "white";
+
+    //Exercício 6
+    let banner = document.getElementById("banner");
+    banner.style.backgroundColor = "#333333"
+
+    //Exercício 7
+    let triangulo = document.getElementById("triangulo");
+    triangulo.style.borderBottomColor = "lime"
+
+    //Exercício 8
+    let quadradao = document.getElementById("quadradao");
+    let circular = document.getElementById("circular");
+    quadradao.style.backgroundColor = "red";
+    circular.style.backgroundColor = "blue";
+    
+
+</script>
+</html>

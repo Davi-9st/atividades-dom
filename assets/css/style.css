@@ -1,0 +1,78 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#quadrado {
+    background-color: gray;
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+#retangulo {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+#circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+#tres-quadrados {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.quadrados {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+#paragrafo {
+    background-color: gray;
+    padding: 8px;
+    font-size: 18px;
+}
+
+#banner {
+    background-color: white;
+    height: 200px;
+}
+
+#triangulo {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid black;
+}
+
+#formas {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+#quadradao {
+    background-color: blue;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+#circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+}

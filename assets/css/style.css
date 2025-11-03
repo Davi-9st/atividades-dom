@@ -76,3 +76,15 @@ p {
     border-radius: 50px;
     background-color: red;
 }
+
+.cor {
+    width: 100px;
+    height: 100px;
+}
+
+#oval {
+  height: 100px;
+  width: 200px; 
+  background-color: blue;
+  border-radius: 50%;
+}
